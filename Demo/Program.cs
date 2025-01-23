@@ -6,6 +6,21 @@ namespace Demo
 {
     internal class Program
     {
+        ///internal class Program
+        ///{
+        ///public static int SumOfArrayList(ArrayList nums)
+        ///{
+        ///    int sum = 0;
+        ///    if(nums is not null)
+        ///    {
+        ///        for (int i = 0; i < nums.Count; i++)
+        ///        {
+        ///            sum += (int?) nums[i] ?? 0;
+        ///        }
+        ///    }
+        ///    return sum;
+        ///}
+
         static void Main(string[] args)
         {
             #region Non-Generic Collections [Array List]
@@ -29,6 +44,14 @@ namespace Demo
             ///nums.TrimToSize();
             ///Console.WriteLine("After Trimming");
             ///Console.WriteLine($"Count = {nums.Count}, Capacity = {nums.Capacity}");
+
+            ///ArrayList nums = new ArrayList(5);
+            ///nums.Add(1);
+            ///nums.Add(2);
+            ///nums.Add(3);
+            ///nums.Add(4);
+            ///nums.Add("Hamada");
+            ///int res = SumOfArrayList()
             #endregion
         }
     }
