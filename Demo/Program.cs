@@ -6,8 +6,6 @@ namespace Demo
 {
     internal class Program
     {
-        ///internal class Program
-        ///{
         ///public static int SumOfArrayList(ArrayList nums)
         ///{
         ///    int sum = 0;
@@ -16,6 +14,19 @@ namespace Demo
         ///        for (int i = 0; i < nums.Count; i++)
         ///        {
         ///            sum += (int?) nums[i] ?? 0;
+        ///        }
+        ///    }
+        ///    return sum;
+        ///}
+        
+        ///public static int SumOfList(List<int> list)
+        ///{
+        ///    int sum = 0;
+        ///    if (list ?.Count > 0)
+        ///    {
+        ///        for (int i = 0; i <= list.Count; i++) 
+        ///        {
+        ///            sum += list[i];
         ///        }
         ///    }
         ///    return sum;
@@ -52,6 +63,45 @@ namespace Demo
             ///nums.Add(4);
             ///nums.Add("Hamada");
             ///int res = SumOfArrayList()
+            #endregion
+
+            #region Generic Collection [List]
+
+            //List<int> nums = new List<int>(5);
+            ///Console.WriteLine($"Count = {nums.Count}, Capacity = {nums.Capacity}");
+            ///
+            ///nums.Add(1);
+            ///nums.Add(2);
+            ///nums.AddRange([3, 4]);
+            ///Console.WriteLine($"Count = {nums.Count}, Capacity = {nums.Capacity}");
+            ///nums.Add(5);
+            ///Console.WriteLine($"Count = {nums.Count}, Capacity = {nums.Capacity}");
+            ///
+            ///nums.TrimExcess();
+            ///Console.WriteLine($"Count = {nums.Count}, Capacity = {nums.Capacity}");
+
+            ///foreach(int i in nums)
+            ///{
+            ///    Console.WriteLine(i);
+            ///}
+
+            ///Console.WriteLine($"Count = {nums.Count}, Capacity = {nums.Capacity}");
+            ///nums.EnsureCapacity(21);
+            ///for (int i = 6; i < 21; i++)
+            ///{
+            ///    nums.Add(i);
+            ///}
+            ///
+            ///Console.WriteLine($"Count = {nums.Count}, Capacity = {nums.Capacity}");
+            
+            ///nums.Add(1);
+            ///nums.Add(2);
+            ///nums.Add(3);
+            ///nums.Add(4);
+            ///
+            ///int res = SumOfList(nums);
+            ///Console.WriteLine(res);
+
             #endregion
         }
     }
