@@ -22,5 +22,19 @@ namespace Demo.Notes
         ///f. Hash Set
         ///2. Generic Collection based on Generics
         #endregion
+
+        #region Collections Namespaces
+        //using System.Collections; ---> Non-Generic Collection
+        //using System.Collections.Generic; ---> Generic Collection
+        //Note: You don't need to write a Generic namespace because it always in global namespaces
+        #endregion
+
+        #region Non-Generic Collections [Array List]
+
+        #endregion
+
+        #region Generic Collections [List]
+
+        #endregion
     }
 }
