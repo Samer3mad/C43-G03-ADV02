@@ -105,7 +105,7 @@ namespace Demo
             #endregion
 
             #region Generic Collection Methods [List]
-            List<int> nums = new List<int>(5) { 1, 2, 3, 4, 5 };
+            //List<int> nums = new List<int>(5) { 1, 2, 3, 4, 5 };
             //nums.Insert(0, 100);
             //nums.InsertRange(1, [101, 102, 103, 10]);
             //IReadOnlyList<int> ReadOnlyNumbers = nums.AsReadOnly();
@@ -126,7 +126,7 @@ namespace Demo
             ///index = emp.BinarySearch(new Employee() { Name = "Samer" }, new EmpName());
             ///index = emp.BinarySearch(1, 2, new Employee() { Name = "Samer" }, new EmpName());
             ///Console.WriteLine($"Index: {index}");
-            
+
             ///nums.Clear();
             ///List <long> n = nums.Select<int, long>(N => N).ToList();
             ///
@@ -139,6 +139,15 @@ namespace Demo
             ///{
             ///    Console.WriteLine(i);
             ///}
+            #endregion
+
+            #region Generic Collection Methods [Linked List]
+            ///LinkedList<int> nums = new LinkedList<int>(); 
+            ///LinkedListNode<int> firstnode = nums.AddFirst(1);
+            ///LinkedListNode<int> fourthnode = nums.AddLast(4);
+            ///LinkedListNode<int> secondnode = nums.AddAfter(firstnode, 2);
+            ///LinkedListNode<int> thirdnode = nums.AddBefore(fourthnode, 3);
+            ///Console.WriteLine(thirdnode.Previous.Value);
             #endregion
         }
     }
